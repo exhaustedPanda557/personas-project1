@@ -1,0 +1,131 @@
+<!-- code built off of Jeff Huang's 2020-10-01 [7] Responsive UI (Boostrap) video; https://htmlcheatsheet.com/css/ -->
+<!-- feature and code help from bootstrap documentation: https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+<!-- images are from Adobe Stock or hand drawn so they didn't need to be cited -->
+<!-- storyboard created on Boords -->
+<!doctype html>
+<html lang ="en">
+<head>
+    <meta charset ="utf-8">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href ="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personas & Storyboarding - Coca Cola Drink Dispenser</title>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Coca Cola Drink Dispenser</a>
+                <div class="collapse navbar-collapse">
+                    <u1 class="navbar-nav">
+                        <li class="navbar-item"><a href="#interface" class="nav-link">Interface</a></li>
+                        <li class="navbar-item"><a href="#userObservations" class="nav-link">User Observations</a></li>
+                        <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
+                        <li class="navbar-item"><a href="#storyboard" class="nav-link">Storyboard</a></li>
+                    </u1>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column water justify-content-center align-items-center">
+            <img class = "padding-top" src="main drink dispenser interface.jpg" alt="sketch of Coca-Cola drink dispenser's main home screen" style="width:20rem; height: 25rem">
+            <h1 class="display 1">Coca-Cola drink dispenser</h1>
+            <h2 class="text-center" style="padding-left: 1 rem; padding-right: 1rem"> This webpage analyzes a user's experience with the Coca-Cola drink dispenser located at Brown Unversity's Andrews Dining Hall</h2>
+            <a href="interface" class="btn text-light btn-lg"> Start by looking at the interface</a>
+        </div>
+
+        <div id="interface" class="container-fluid">
+                <h3>Interface</h3>
+                <h7 style="padding-bottom: 1 rem;">A Coca-Cola drink dispenser that allows users to select brands and flavors from a digital screeen as well as get ice. This interface is commonly found in dining locations and can be used in Brown University's Andrews Dining Hall.</h7>
+                <div class="row text-center justify-content-center align-items-center" style="padding-top: 1rem;">
+                    <div class ="col-sm">
+                        <img src="annotated main drink dispenser interface.jpg" alt="sketch of Coca-Cola drink dispenser's main home screen" style="width: 25rem; height: 32rem">
+                    </div>
+                    <div class="col-sm">
+                        <img src="annotated brand flavor drink dispenser interface.jpg" alt="sketch of Coca-Cola drink dispenser's brand flavor screen" style="width: 25rem; height: 32rem">
+                    </div>
+                    <div class="col-sm">
+                        <h4 class="text-center">
+                            The Coca-Cola drink dispenser is trying to solve the 3-part problem that (1) people have many drink preferences, (2) Coca-Cola offers 32 brands each with multiple flavors, and (3) dining spots have limited room to supply drink options. 
+                        </h4>
+                    </div>
+                </div>
+                <h5 class="text-left" style="padding-top: 2rem; color: red;">
+                    It's key components function as:
+                </h5>
+                <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                    <li class="list-group-item text-left">(a) barcode that connects the drink dispenser to your smartphone to enable contactless pouring</li>
+                    <li class="list-group-item text-left">(b) display controls that filter the drink options and offers a different display language</li>
+                    <li class="list-group-item text-left">(c) cluster of drink options place closely related brands together</li>
+                    <li class="list-group-item text-left">(d) tapping a brand icon opens up a new screen (shown by f) detailing the flavor options for the brand</li>
+                    <li class="list-group-item text-left">(e) manual ice dispenser where you push the cup against the lever to release ice cubes</li>
+                    <li class="list-group-item text-left">(f) push and hold button to dispense the drink for the time that a user holds the button</li>
+                    <li class="list-group-item text-left">(g) the flavor icons showcase the flavor offerings for the selected brand</li>
+                    <li class="list-group-item text-left">(h) the elevated drink icon indicates the flavor currently selected</li>
+                    <li class="list-group-item text-left">(i) this screen view showcases a specific brand and the flavor offerings. This is the final screen where a user selects the drink to be dispensed.</li>
+                </ul>
+        </div>
+
+        <div id="userObservations" class="container-fluid" style="background-color: rgb(255, 138, 138)">
+            <h3 style="padding-bottom: 2rem;">User Observations</h3>
+            <h5 style="color: black;">Here is what I observed from three users of the drink dispenser:</h5>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem; background-color: rgb(255, 138, 138);">
+                <li class="list-group-item text-left" style="background-color: rgb(255, 138, 138); border: 2px solid grey;">users got ice first before selecting their drink option</li>
+                <li class="list-group-item text-left" style="background-color: rgb(255, 138, 138); border: 2px solid grey;">users mixed drink options</li>
+                <li class="list-group-item text-left" style="background-color: rgb(255, 138, 138); border: 2px solid grey;">to fill up the cup to its rim with liquid, users sometimes had to push the dispenser button multiple times</li>
+                <li class="list-group-item text-left" style="background-color: rgb(255, 138, 138); border: 2px solid grey;">users dispensed the first brand option they selected</li>
+            </ul>
+            <h5 style="color: black;">I interviewed the three users and here is the Q&A summary:</h5>
+            <ul class="list-group" style="padding-bottom: 2rem; background-color: rgb(255, 138, 138);">
+                <span class="badge badge-pill justify-content-start align-items-center"; style="color: white; background-color: gray;">Q</span>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">(1) What do you think are the three most essential features?</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">(2) Are there times when you decide not to use this machine and why?</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">(3) What entices you to use the interface?</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">(4) Is there something you would like to do that's not supported by the machine?</li>
+                <span class="badge badge-pill justify-content-start align-items-center"; style="color: white; background-color: gray;">A</span>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">users found the most essential features and enticing elements of the interface to be the photos of brand and flavor options, the ability to choose from the high quantity of brand drinks in one machine, the single dispenser location that allows users to get both ice and liquid, and the ability to stop and mix drink options</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">users won't use the machine if the drinks they like best aren't available</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">users would like the machine to provide a solution to the issue that sometimes the desired drink's icon is on the edge of the screen and the tapping doesn't seem to work because the user has to tap the brand icon multiple times for it to register the finger tapping</li>
+                <li class="list-group-item d-flex text-left" style="background-color: rgb(255, 138, 138)">an improvement suggestion was for the machines to provide more juice options</li>
+            </ul>
+        </div>
+
+        <div id="personas" class="container-fluid">
+            <h3 style="padding-bottom: 2rem;">Personas</h3>
+            <div class="row text-center justify-content-center align-items-center">
+                <div class ="col-sm">
+                    <img src="Rushed Riley's Empathy Map.jpeg" alt="an empathy map for a persona named Rushed Riley" style="width: 30rem; height: 40rem">
+                </div>
+                <div class="col-sm">
+                    <h4 class="text-center" style="font-weight: bold;">
+                        Rushed Riley frequently uses the drink dispenser and is in a rush during their meal time. He faces the issue that sometimes his desired drink is unavailable in the drink dispenser.
+                    </h4>
+                    <h6>
+                        Rushed Riley represents drink dispenser users because I observed that as soon as some users approached the machine, they reached for one brand offering and told me that if their initial drink preference wasn't available, then they wouldn't use the machine or would opt for water.
+                    </h6>
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class ="col-sm" style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <img src="Curious Cindy Empathy Maps .jpeg" alt="an empathy map for a persona named Curious Cindy" style="width: 30rem; height: 40rem">
+                </div>
+                <div class="col-sm" style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <h4 class="text-center" style="font-weight: bold;">
+                        Curious Cindy is looking for a drink to pair with her meal and is curious about trying a new combination of her interests. She faces the issue that sometimes she doesn't get her mixed-drink proportions correct and it takes many attempts to dispense the exact amount of liquid for a full cup.
+                    </h4>
+                    <h6>
+                        Curious Cindy represents drink dispenser users because I observed that many users' favorite aspect was the ability to stop pouring and mix different drinks. Also, many users had to push the dispenser several times to completely fill their cup. Additionally, a user who had a mixed-drink decided to pour some out and re-add some of her original selection, which indicates that she was trying to achieve a flavor porportion and didn't get it intially correct. 
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="storyboard" class="container-fluid" style="background-color: rgb(255, 138, 138)">
+            <h3 style="padding-bottom: 2rem;">Storyboard for Rushed Riley</h3>
+            <div class="justify-content-center align-items-center">
+                <img src="storyboard line 1.png" alt="first line of storyboard of Rushed Riley selecting water after wanting lemonade" style="width:50rem; height: 20rem">
+                <img src="storyboard line 2.png" alt="second line of storyboard of Rushed Riley selecting water after wanting lemonade" style="width:50rem; height: 20rem">
+                <img src="storyboard line 3.png" alt="third line of storyboard of Rushed Riley selecting water after wanting lemonade" style="width:50rem; height: 20rem">
+                <img src="storyboard line 4.png" alt="fourth line of storyboard of Rushed Riley selecting water after wanting lemonade" style="width:50rem; height: 20rem">
+            </div>
+
+    </body>
+</html>

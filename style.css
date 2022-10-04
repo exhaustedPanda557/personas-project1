@@ -1,0 +1,78 @@
+body {
+	background-color: lightgrey;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:black;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 68px;
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 3px 3px 3px black;
+    background-color: aliceblue;
+    border: 3px solid red;
+  }
+h2{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  background-color:rgb(174, 202, 225); 
+  border: 3px solid black
+}
+
+h3{
+  padding-top: 2rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 54px;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 3px 3px 3px red;
+}
+
+h4{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 31px;
+  font-weight: 300;
+  color: black;
+}
+
+h5{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h6{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+}
+
+h7{
+  padding-top: 2rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px 0.5px red;
+}
+
+.water {
+  background: url(water\ background.jpeg) center fixed;
+  height: calc(100vh - 56px);
+}
+.btn:hover,
+.btn:focus {
+  filter: brightness(140%);
+}
+.btn-lg{
+  background-color: red;
+}
+
+
+
